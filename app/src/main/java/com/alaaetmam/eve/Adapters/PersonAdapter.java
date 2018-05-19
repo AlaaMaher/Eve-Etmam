@@ -3,7 +3,6 @@ package com.alaaetmam.eve.Adapters;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
-import android.support.constraint.ConstraintLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -16,12 +15,9 @@ import android.widget.TextView;
 
 import com.alaaetmam.eve.Model.Names;
 import com.alaaetmam.eve.Model.Person;
-import com.alaaetmam.eve.Model.PersonImages;
 import com.alaaetmam.eve.R;
-import com.alaaetmam.eve.View.Activities.PersonSectionDetails;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -58,7 +54,7 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.MyViewHold
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
-        /////////////////////
+
 
         serviceList=personList[position].getServices();
         holder.personService.setLayoutManager(new LinearLayoutManager(mContext));
@@ -160,10 +156,10 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.MyViewHold
 
 
 
-
-            Intent intent = new Intent(mContext, PersonSectionDetails.class);
-            intent.putExtra("Person", person);
-            mContext.startActivity(intent);
+//
+//            Intent intent = new Intent(mContext, PersonSectionDetails.class);
+//            intent.putExtra("Person", person);
+//            mContext.startActivity(intent);
 
             //  Toast.makeText(mContext," company id "+containerSizesList.get(position).getId(),Toast.LENGTH_SHORT).show();
 //            Intent intent=new Intent(mContext, Company_Detail.class);
