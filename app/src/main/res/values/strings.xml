@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Eve</string>
+
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="spinner_Title">Language</string>
+    <string name="Arabic">Arabic</string>
+    <string name="English">English</string>
+    <string name="sp_con_title">Country</string>
+    <string name="home_visit">Home Visit</string>
+    <string name="show_map">Show Map</string>
+    <string name="appointment_booking">Appointment Booking</string>
+    <string name="details">Details</string>
+    <string name="all_fragment">All</string>
+    <string name="search">Search</string>
+    <string-array name="spinnerItems">
+        <item>@string/spinner_Title</item>
+        <item>@string/Arabic</item>
+        <item>@string/English</item>
+
+    </string-array>
+    <string-array name="spnCounty">
+        <item>@string/sp_con_title</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

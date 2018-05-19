@@ -10,9 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/MyMaterialTheme">
         <activity
-            android:name=".View.SplashScreen"
+            android:name=".View.Activities.SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,11 +20,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.MainActivity" />
-        <activity android:name=".View.ShowMap" />
-        <activity android:name=".View.HomeVisit" />
-        <activity android:name=".View.Main2Activity" />
-        <activity android:name=".View.Main3Activity"></activity>
+        <activity
+            android:name=".View.Activities.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".View.Activities.ShowMap" />
+        <activity android:name=".View.Activities.HomeVisit" />
+        <activity android:name=".View.Activities.RegisterUser" />
+        <activity
+            android:name=".View.Activities.Lang"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Activities.LoginOrReg"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".View.Activities.UserCountry" />
+        <activity android:name=".View.Activities.PersonSectionDetails" />
+        <activity android:name=".View.Activities.TestActivity" />
+        <activity android:name=".View.Activities.PersonSection" />
+        <activity android:name=".View.Activities.Tabs" />
+        <activity android:name=".View.Activities.Images" />
+        <activity android:name=".View.Activities.personList"
+            android:theme="@style/MyMaterialTheme"></activity>
     </application>
 
 </manifest>

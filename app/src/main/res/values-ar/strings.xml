@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ايف</string>
+
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="register">مستخدم جديد</string>
+    <string name="spinner_Title">اللغه</string>
+    <string name="Arabic">اللغة العربىة</string>
+    <string name="English">اللغة الانجليزية</string>
+    <string name="home_visit">الصفحة الرئيسية</string>
+    <string name="show_map">عرض الخريطة</string>
+    <string name="appointment_booking">حجز موعد</string>
+    <string name="details">التفاصيل</string>
+    <string name="all_fragment">الكل</string>
+    <string name="search">بحث</string>
+
+
+
+
+</resources>

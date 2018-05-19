@@ -8,7 +8,7 @@
     android:id="@+id/lin_lay"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".View.SplashScreen">
+    tools:context=".View.Activities.SplashScreen">
 
     <ImageView
         android:layout_width="232dp"

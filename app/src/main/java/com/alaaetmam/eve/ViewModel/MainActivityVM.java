@@ -5,10 +5,8 @@ import android.content.Intent;
 import android.databinding.BaseObservable;
 import android.view.View;
 
-import com.alaaetmam.eve.View.HomeVisit;
-import com.alaaetmam.eve.View.Main2Activity;
-import com.alaaetmam.eve.View.Main3Activity;
-import com.alaaetmam.eve.View.ShowMap;
+import com.alaaetmam.eve.View.Activities.UserCountry;
+import com.alaaetmam.eve.View.Activities.ShowMap;
 
 public class MainActivityVM extends BaseObservable {
     private Context context;
@@ -31,7 +29,7 @@ public class MainActivityVM extends BaseObservable {
 
     }
     public void onHomeVisitClick(){
-        Intent intent = new Intent(context.getApplicationContext(), HomeVisit.class);
+        Intent intent = new Intent(context.getApplicationContext(), UserCountry.class);
         context.startActivity(intent);
 
     }
