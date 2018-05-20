@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.alaaetmam.eve.Model.Names;
 import com.alaaetmam.eve.Model.Person;
 import com.alaaetmam.eve.R;
+import com.alaaetmam.eve.View.Activities.PersonDetails;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;
@@ -156,10 +157,10 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.MyViewHold
 
 
 
-//
-//            Intent intent = new Intent(mContext, PersonSectionDetails.class);
-//            intent.putExtra("Person", person);
-//            mContext.startActivity(intent);
+
+            Intent intent = new Intent(mContext, PersonDetails.class);
+            intent.putExtra("Person", person);
+            mContext.startActivity(intent);
 
             //  Toast.makeText(mContext," company id "+containerSizesList.get(position).getId(),Toast.LENGTH_SHORT).show();
 //            Intent intent=new Intent(mContext, Company_Detail.class);

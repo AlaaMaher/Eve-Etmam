@@ -43,8 +43,10 @@
         <activity android:name=".View.Activities.PersonSection" />
         <activity android:name=".View.Activities.Tabs" />
         <activity android:name=".View.Activities.Images" />
-        <activity android:name=".View.Activities.personList"
-            android:theme="@style/MyMaterialTheme"></activity>
+        <activity
+            android:name=".View.Activities.personList"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".View.Activities.PersonDetails"></activity>
     </application>
 
 </manifest>
